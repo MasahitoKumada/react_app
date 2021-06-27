@@ -1,0 +1,3 @@
+[submodule "sanmoku"]
+	path = sanmoku
+	url = https://github.com/facebook/create-react-app

@@ -1,19 +1,19 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 
 # # src code
-!./sanmoku/src/gitkeep
+# !./sanmoku/src/*
 
 # dependencies
-/sanmoku/node_modules
-# /.pnp
-# .pnp.js
+/sanmoku/node_modules/*
+# /sanmoku/.pnp
+# /sanmoku/.pnp.js
 
 # testing
-/sanmoku/coverage
+/sanmoku/coverage/*
 
 # production
-/sanmoku/build
+/sanmoku/build/*
 
 # misc
 /sanmoku/.DS_Store
