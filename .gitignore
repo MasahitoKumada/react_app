@@ -1,27 +1,5 @@
-See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+sanmoku/node_modules
 
+sanmoku/build
 
-# # src code
-# !./sanmoku/src/*
-
-# dependencies
-/sanmoku/node_modules/*
-# /sanmoku/.pnp
-# /sanmoku/.pnp.js
-
-# testing
-/sanmoku/coverage/*
-
-# production
-/sanmoku/build/*
-
-# misc
-/sanmoku/.DS_Store
-/sanmoku/.env.local
-/sanmoku/.env.development.local
-/sanmoku/.env.test.local
-/sanmoku/.env.production.local
-
-/sanmoku/npm-debug.log*
-/sanmoku/yarn-debug.log*
-/sanmoku/yarn-error.log*
+sanmoku/public
